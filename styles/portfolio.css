@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Font style */
+.work-sans-general {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Shared style */
+.primary-color{
+    color: #FD6E0A;
+}
+
+.dark-1{
+    color: rgb(24, 24, 24);
+}
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.dark-3{
+    color: rgb(117, 117, 117);
+}
+
+.dark-5{
+    color: rgba(209, 209, 209, 1);
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 19.2px;
+    padding: 17.28px 33.6px;
+    border-radius: 4.8px;
+    border: none;
+}
+
+.primary-title{
+    font-weight: bold;
+    font-size: 33.6px;
+    text-align: center;
+}
+
+
+/* Header Background */
+.header{
+    background: #FFF8F3;
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Body styles */
+.body{
+    max-width: 1536px;
+    /* max-height: 803.52px; */
+}
+
+
+/* For Nav Bar Styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 216.96px 220.8px;
+}
+
+.nav-title {
+    font-weight: 800; /* Extra-bold: 800, Bold: 700 */
+    font-size: 43.2px;
+}
+
+nav ul{
+    display: flex;
+    gap: 48.96px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 19.2px;
+}
+
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 36.48px 0 220.8px;
+}
+
+.banner .banner-content{
+    max-width: 561.6px;
+}
+
+.banner-greetings{
+    font-weight: 600px;
+    font-size: 43.2px;
+}
+
+.banner-title{
+    font-weight: 700px;
+    font-size: 81.6px;
+}
+
+.banner-description{
+    font-size: 17.28px;
+    margin-bottom: 28.8px;
+}
+
+.contact-btn{
+    background-color: white;
+    color:#FD6E0A;
+    border:1px #FD6E0A solid;
+    margin-left: 28.8px;
+}
+
+.banner .banner-image{
+    width: 560px;
+}
+
+
+/* Main styles */
+.main{
+    max-width: 1094.4px;
+    margin: 0 auto;
+}
+
+/* About Me section styles */
+.main #about{
+    /* height: 528px; */ /* Normally, do not define height, width. Because, it can make problem in your design. */
+    background: #FFF8F3;
+    display: flex;
+    align-items: center;
+    padding: 131px 156px;
+    margin: 130px 0 130px 0;
+}
+
+.main #about .info-carrier{
+    background: white;
+    border: 1px black solid;
+}
+
+.main #about .about-me{
+    font-size: 17.28px;
+    margin: 28.8px 0;
+    text-align: center;
+}
+
+.basic-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.property{
+    font-size: 14px;
+    text-align: center;
+}
+
+.value{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-summary{
+    text-align: center;
+    margin: 30px 80px 50px;
+    font-size: 17.28px;
+}
+
+.card-carrier{
+    display: flex;
+    gap: 23.04px;
+    margin-bottom: 124.8px;
+}
+
+.skills .card-carrier .card{
+    width: 256.32px;
+    border-radius: 4.8px;
+    /* border: 1px black solid; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); /* box-shadow: x-axis y-axis blurred-area spread-area color*/
+}
+
+.card .card-icon{
+    margin-top: 28.8px;
+    margin-left: 28.8px;
+}
+
+.card .card-info{
+    width: 195.84px;
+    margin: 28.8px 28.8px;
+}
+
+.card .card-title{
+    font-weight: bold;
+    font-size: 19.2px;
+    margin-bottom: 19.2px;
+}
+
+.card .card-description{
+    font-size: 16px;
+}
+
+/* Resume styles */
+.achievement-title{
+    font-weight: bold;
+    font-size: 28.8px;
+}
+
+.achievement-name{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px auto 10px;
+}
+
+.achievement-year{
+    font-weight: 600;
+    font-size: 19.2px;
+    margin-bottom: 20px;
+}
+
+.achievement-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+    width: 490px;
+}
+
+.line{
+    width: 535px;
+}
+
+.resume-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    margin-top: 108px;
+}
+
+.download-btn{
+    text-align: center;
+    margin: 20px auto 108px;
+}
+
+
+/* Last section styles */
+
+.last-section{
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 112px;
+}
+
+.media-icons{
+    color: rgba(253, 110, 10, 1);
+    display: flex;
+    gap: 23px;
+}
+
+.contact-hour{
+    width: 539px;
+    font-size: 16px;
+    margin: 20px auto 30px;
+}
+
+form input[class="dark-3"], textarea[class="dark-3"]{
+    height: 61px;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-top: 24px;
+}
+
+form .message{
+    height: 172px;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 17px;
+    margin: 24px auto 24px;
+}
+
+
+
